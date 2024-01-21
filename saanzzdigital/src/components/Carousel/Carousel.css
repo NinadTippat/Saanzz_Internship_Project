@@ -1,0 +1,83 @@
+.carousel {
+  overflow: hidden;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid red; */
+  /* color: white; */
+  margin-bottom: 20px;
+}
+
+.inner {
+  white-space: nowrap;
+  transition: transform 0.5s;
+}
+
+.carousel-item {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: self-end;
+  justify-content: space-evenly;
+  height: 400px;
+  border-radius: 50px;
+  backdrop-filter: blur(80px);
+}
+
+.carousel-item-text {
+  font-size: 2rem;
+  margin: 20px 0 0px 0;
+  padding: 0 20px 0 20px;
+  white-space: normal;
+  /* color: #617d98; */
+}
+
+/* final stage */
+
+.carousel-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.button-arrow {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.indicators {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.indicator-buttons {
+  border: none;
+  cursor: pointer;
+}
+
+.indicators > button {
+  margin: 5px;
+  background: none;
+}
+
+.indicator-symbol {
+  color: #000000;
+}
+
+.indicator-symbol-active {
+  color: #ac00fc;
+}
+
+@media (max-width: 500px){
+    .carousel{
+      width: 300px;
+    }
+    .carousel-item-text {
+      font-size: 2rem;
+      margin: 20px 0 0px 0;
+      padding: 0 10px 0 20px;
+    }
+}

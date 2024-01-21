@@ -1,0 +1,238 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 70%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* 
+ 
+/* navbar style start  */
+
+.main-nav {
+  width: 100%;
+  height: 8rem;
+  display: grid;
+  grid-template-columns: 30.5rem  6fr 1fr 3fr 10rem;
+    background-size: cover;
+    position: relative;
+}
+
+.logo {
+  display: grid;
+  /* background-color: #3b5998; */
+  grid-column: 1/2;
+  justify-content: start;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.menu-link {
+  grid-column: 3/4;
+}
+
+.menu-link ul {
+  height: 8rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-left: 100px; */
+}
+
+
+
+
+/* ----------- Grid part ends ----------------- */
+
+
+.menu-link ul li a {
+  text-transform: capitalize;
+  color:rgb(255, 255, 255) ;
+  /* background-color: rgb(253, 253, 253); */
+  transition: 0.5s;
+  border-radius: 15px ;
+  margin: 10px 20px 10px 10px;
+  padding: 5px 5px 5px 5px;
+  font-weight: 700;
+  font-size: 2.4rem;
+
+}
+.nav_icons:hover {
+  transform-origin: left;
+  color: rgb(0, 0, 0);
+  /* background-color: rgb(61, 151, 193); */
+  background-image: linear-gradient(to left bottom, #e781bb, #d889cb, #c791d8, #b399e1, #9fa0e6, #939de9, #859bed, #7499f0, #6b8df6, #677ffa, #6870fb, #6f5ffb);
+  transition: 0.5s;
+}
+.social-media ul{
+  display: flex;
+}
+.social-media ul li {
+ 
+  /* border: 1px solid red; */
+  font-size: 1.5rem;
+}
+.homepage_whatsapp{
+  width: 30px;
+  margin-top: 10px;
+}
+.homepage_phone{
+  border: 1px solid red;
+  width: 300px;
+  font-size: 10px;
+}
+ .hamburger-menu {
+  display: none;
+}
+
+/* hero section   */
+
+
+
+
+/* responsive css style */
+@media (max-width: 1080px) {
+  .main-nav {
+    height: 5rem;
+    grid-template-columns: 2rem 3fr 3fr 1fr 2rem;
+  }
+
+  .logo,
+  .menu-link ul,
+  .social-media ul {
+    height: 2rem;
+    margin-top: -4px;
+  }
+  .logoimg{
+    margin-top: 15px;
+    height: 50px;
+  }
+}
+
+/* responsive css style  */
+@media (max-width: 998px) {
+  .main-nav {
+    height: 7rem;
+    grid-template-columns: 2rem 2fr 3fr 2rem 2rem;
+  }
+
+  .menu-link {
+    display: none;
+  }
+
+  .logo,
+  .social-media ul {
+    height: 7rem;
+  }
+
+  .mobile-menu-link {
+    grid-column: 2/4;
+    position: relative;
+    z-index: 99;
+  }
+
+  .mobile-menu-link {
+    /* background: radial-gradient(65.09% 88.68% at 45.29% 40.5%, rgba(90, 47, 176, 0.92) 0%, rgba(14, 3, 36, 0.92) 100%); */
+    /* background-color: rgb(64, 21, 104); */
+    /* background-image: url("../../assets/Service_landingPage.png"); */
+    backdrop-filter: blur(50px);
+    background-size: cover;
+    border-radius: 30px;
+    height: 30rem;
+    display: grid;
+    grid-column: 2/5;
+    align-items: center;
+    padding-left: 3rem;
+    transition: all 2s horizontal;
+    transform-origin: top;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+
+  .mobile-menu-link ul {
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .mobile-menu-link ul li:first-child {
+    transition-delay: 0.2s;
+  }
+
+  .social-media {
+    grid-row: 1/2;
+    grid-column: 3/5;
+    justify-items: end;
+    align-items: center;
+    transition: all 2s linear;
+  }
+
+  .social-media .social-media-desktop {
+    height: 0;
+    display: none;
+  }
+
+  .social-media {
+    height: 7rem;
+    display: flex;
+    justify-self: end;
+    align-items: center;
+  }
+
+  .hamburger-menu {
+    display: block;
+    font-size: 2.3rem;
+    color: black;
+  }
+}
+
+@media (max-width: 798px) {
+  .main-nav {
+    height: 7rem;
+    grid-template-columns: 1rem 2fr 1fr 1fr 1rem;
+  }
+  .logo{
+    margin-left: 30px;
+  }
+
+  
+}
+
+@media (max-width: 520px) {
+  .main-nav {
+    height: 6rem;
+    grid-template-columns: 1rem 2fr 1fr 1fr 1rem;
+    /* padding-left: 20px; */
+  }
+
+  .logo,
+  .social-media ul {
+    height: 3rem;
+  }
+
+ 
+  .social-media .hamburger-menu {
+    display: block;
+    font-size: 2rem;
+    color: black;
+  }
+  .hamburger-menu>a>svg{
+    color: beige;
+  }
+}

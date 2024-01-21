@@ -1,0 +1,39 @@
+URL of Website:-
+How to proper url structure should look like:
+
+Ans : Include Primary keyword.
+	Should contain hyphen(-), instead of underscore (_).
+	It should be short and precise (kam shabdo me show krde website pe kya hai).
+	Lower Case Only.
+	Avoid use of 'A', 'An', 'The', or 'to', 'in', 'From'.
+
+
+
+Title of Website:-
+How to proper structure a title of the website.
+
+Ans : Include Primary keyword.
+	Include Brand Name.
+	Do not keyword stuffing (do not put more keyword in the title only long tail one and that also the primary).
+	Avoid keyword cannibalization (har page ka title diffrent hona cahiye, 2 pages ka title same nhi hona chaiye).
+	Be creative
+	Avoid Longer title(check the lenght on the totheweb.com and make the title small as possible).
+
+
+
+Meta Description:- using following keywords and having short length check on totheweb.com
+
+				 
+Meta Keywords should be added in website.
+
+
+wwww.saanzzdigital.com/content-marketing-services-digital-marketing-services-navi-mumbai
+wwww.saanzzdigital.com/about-social-media-marketing-company
+
+
+
+	
+	
+	
+	
+	

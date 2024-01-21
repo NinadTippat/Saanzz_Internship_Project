@@ -1,0 +1,129 @@
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.6rem;
+    /* background-image: url("../../assets/Service_landingPage.png"); */
+    /* background-color: rgb(125, 32, 211); */
+    /* background-image: linear-gradient(to right, #cebde7, #bd9ceb, #ab7bec, #9957ed, #8529eb); */
+    background-color: rgb(121, 47, 190);
+    background-size: cover;
+
+}
+
+.container1 {
+    width: 300px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 40px;
+    font-weight: 700;
+    color: white;
+}
+.coloumn{
+    flex-direction: column;
+}
+.container2{
+    /* height: 150px; */
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 1px solid rgb(232, 231, 231); */
+}
+
+.container3{
+    /* height: 150px; */
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container3>a{
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    display: flex;
+}
+.sub_container{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+}
+.container3>a>p{
+    margin-left: 10px;
+    font-weight: 700;
+}
+.telephone{
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.instagram{
+    width: 40px;
+}
+.container2 {
+    width: 300px;
+    display: flex;
+    padding-left: 10px;   
+    cursor: pointer;
+}
+.container2>img{
+    width: 170px;
+    margin: 30px;
+}
+/* .email_container{
+    margin-left: 26px;
+} */
+.email{
+    width: 40px;
+    margin-right: 20px;
+}
+.linkedin{
+    width: 35px;
+}
+.phone{
+    width: 33px;
+}
+@media (max-width: 700px){
+    .container{
+        flex-direction: column;
+        height: 420px;
+    }
+    .container1 {
+        width: 100%;
+    }
+    .container2>img{
+        display: none;
+    }
+    .container3{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .coloumn{
+        margin-bottom: 30px;
+
+    }
+    .coloumn>p{
+        padding: 0px 10px 20px 20px;
+    }
+}
+@media (max-width: 370px){
+    .container{
+        height: 400px;
+    }
+    .container1 {
+        width: 100%;
+    }
+    .container1>p{
+        margin-left: 30px;
+    }
+    
+}

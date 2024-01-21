@@ -1,0 +1,447 @@
+
+
+.home{
+    width: 100%;
+    height: 120vh;
+    /* background-image: linear-gradient(to right bottom, #401568, #481c75, #4f2381, #572b8f, #5e329c);     */
+    /* background-image: url("../../assets/Homepagebanner.png"); */
+    background-image: url("../../assets/Service_landingPage.png");
+    background-color: rgb(3, 3, 49);
+    background-size: cover;
+    
+}
+/* HOMEPAGE CSS */
+
+.homepage{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-top: 70px; */
+}
+.homepage_left{
+    width: 570px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.saanzz_color{
+    margin-right: 20px;
+    color: #ffffff;
+    font-size: 75px;
+    text-shadow: 10px 5px 5px rgba(0, 0, 0, 0.25);
+    font-weight: 800
+}
+.digital_color{
+    font-weight: 800;
+    font-size: 75px;
+    color: #ffffff;
+    text-shadow: 10px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.discovery{
+    color: rgb(255, 255, 255);
+    /* background: conic-gradient(from 180.02deg at 50% 90%, rgba(255, 255, 255, 0.92) 0deg, #ffffff 360deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    background-clip: text;
+    /* text-fill-color: transparent; */
+    text-shadow: 10px 5px 5px rgba(0, 0, 0, 0.25);
+    font-weight: 700;
+}
+.keywords{
+    font-weight: 500;
+    color: white;
+    /* background: conic-gradient(from 180.02deg at 50% 90%, rgba(255, 255, 255, 0.92) 0deg, #ffffff 360deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    background-clip: text;
+    /* text-fill-color: transparent; */
+    text-shadow: 2px 9px 7px rgba(0, 0, 0, 0.25);
+
+}
+.landing_page_icons{
+    width: 500px;
+    margin-top: 70px;
+    text-shadow: 2px 9px 7px rgba(0, 0, 0, 0.25);
+}
+.homepage_connect_with_us_title{
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 246, 236);
+    padding-top: 40px;
+    display: flex;justify-content: center;
+    font-size: 2rem;
+}
+.what_we_do_title{
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 246, 236);
+    font-size: 2rem;
+}
+.what_we_do{
+    width: 100%;
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255, 246, 236);
+}
+.do_left{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.do_left>img{
+    width: 60%;
+}
+.do_right{
+    background-color: rgb(223, 208, 241);
+    width: 45%;
+    height: 350px;
+    font-size: 2.1rem;
+    font-weight: 400;
+    margin: 40px 40px 30px 40px;
+    border-radius: 20px;
+    padding: 20px 30px 20px 40px;
+    /* border: 1px solid black; */
+    /* box-shadow: 0px 0px rgb(137, 0, 241), 1.2rem 0 .8rem rgb(147, 147, 147); */
+    backdrop-filter: blur(80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.our_pride{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 700px;
+    background-image: url("../../assets/Service_landingPage.png");
+    background-size: cover;
+}
+.ou_pride_left{
+    width: 55%;
+}
+.ou_pride_left>img{
+    margin: 200px 0px 0px 30px;
+    width: 80%;
+    border-radius: 0px 30px 30px 0px;
+}
+.ourpride_content{
+    font-size: 20px;
+    width: 45%;
+    height: 450px;
+    background-color: rgb(244, 239, 234);
+    padding: 20px 50px 20px 50px;
+    border-radius: 30px 0px 0px 30px;
+    margin-top: 150px;
+    box-shadow: 40px 35px 100px rgba(0, 0, 0, 0.5);
+    
+}
+.ourpride_content>h1{
+    margin-bottom: 25px;
+}
+.ourpride_bottom{
+    /* padding: 20px 80px 20px 80px; */
+    padding: 50px;
+    font-size: 23px;
+    background-color: rgb(244, 239, 234);
+    /* background-image: url("../../assets/diffrent.png"); */
+}
+.ourpride_bottom>h3{
+    font-size: 3rem;
+}
+.why_saanzz_digital{
+    display: flex;
+    /* background-color: rgb(244, 239, 234); */
+    background-image: url("../../assets/why_saanzz_1.png");
+    padding-top: 40px;
+    font-size: 18px;
+    justify-content: space-evenly;
+    color: white;
+    height: 470px;
+    /* border: 1px solid red; */
+}
+.why_saanzz{
+    margin: 10px 0px 20px 0px;
+}
+.why_saanzz_digital_left{
+    width: 500px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+.why_saanzz_digital_right>img{
+    width: 300px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+.feedback{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-image: linear-gradient(to right top, #7683de, #8581e2, #967fe5, #a67de7, #b779e7); */
+    /* background-image: linear-gradient(to right top, #f095c8, #e296d5, #d099df, #bb9ce8, #a2a0ee, #9ba0f1, #939ff3, #8b9ff6, #999af8, #aa94f8, #bb8df6, #cc85f2); */
+    background-image: url("../../assets/Feedbacknew.png");
+    /* color: white; */
+    font-size: 1.9rem;
+    background-size: cover;
+}
+.feedback_heading{
+    margin: 20px 0px;
+}
+.trust_company{
+    margin-bottom: 30px;
+}
+@media (max-width: 998px) {
+    
+    .homepage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .homepage_left{
+        width: 380px;
+        margin-top: 20px;
+        margin-left: 50px;
+        font-size: 18px;
+        align-items: center;
+        padding: 0px 10px 0px 10px;
+    }
+    .saanzz_color{
+        font-size: 50px;
+    }
+    .digital_color{
+        font-size: 50px;
+    }
+    .discovery{
+        padding-top: 20px;
+    }
+    .landing_page_icons{
+        width: 400px;
+        text-shadow: 2px 9px 7px rgba(0, 0, 0, 0.25);
+    }
+    .what_we_do{
+        flex-direction: column;
+        /* border: 1px solid red; */
+        align-items: last baseline;
+    }
+    .do_right{
+        border-radius: 0px 20px 20px 0px;
+        width: 90%;
+        height: 460px;
+        padding: 45px 40px 40px 40px;
+    }
+    .do_left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .do_left>img{
+        width: 330px;
+    }
+    .our_pride{
+        display: flex;
+        flex-direction: column;
+        height: 750px;
+        margin-top: 0px;
+    }
+    .ou_pride_left>img{
+        width: 280px;
+        margin: 30px 0px 0px 50px;
+        border-radius: 0px 30px 30px 0px;
+    
+    }
+    .ourpride_content{
+        font-size: 15px;
+        width: 300px;
+        height: 420px;
+        padding: 30px 20px 50px 20px;
+        margin-top: 180px;
+    }
+    .ourpride_bottom{
+        padding: 25px 20px 20px 20px;
+        font-size: 20px;
+        /* box-shadow: 21px 29px 50px rgba(0, 0, 0, 0.5); */
+    }
+    .why_saanzz_digital{
+        display: flex;
+        margin-top: 60px;
+        font-size: 15px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .why_saanzz_digital_left{
+        width: 400px;
+        padding-left: 20px;
+        font-size: 15px;
+        
+    }
+    .why_saanzz_digital_right>img{
+        width: 270px;
+    }
+    .feedback{
+        font-size: 1.3rem;
+        /* height: 100%; */
+    }
+    .feedback_boxes{
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .feedback_box{
+        width: 200px;
+        height: 260px;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 740px){
+    .our_pride{
+        /* height: 600px; */
+        margin-top: 0px;
+        /* border: 1px solid red; */
+        align-items: start;
+    }
+    .ou_pride_left>img{
+        width: 280px;
+        border-radius: 0px 30px 30px 0px;
+        margin: 30px 0px 0px 0px;
+    }
+    .why_saanzz_digital{
+        background-image: (url("../../assets/why_saanzz_1.png"));
+        /* background-color: aqua; */
+        background-size: cover;
+        height: 600px;
+        display: flex;
+        margin-top: 0px;
+        font-size: 12px;
+    }
+    .why_saanzz_digital_left{
+        width: 350px;
+        padding-left: 20px;
+        font-size: 16px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .why_saanzz_digital_right>img{
+        width: 140px;
+    }
+    .feedback{
+        width: 100%;
+        padding: 10px 0px;
+        overflow: hidden;
+    }
+    .feedback>img{
+        width: 140%;
+    }
+    .homepage_contact_left{
+        display: none;
+    }
+    .homepage_contact_right{
+        margin-top: 40px;
+    }
+    .homepage_contact_right>input{
+        width: 250px;
+        height: 35px;
+        font-size: 15px;
+        margin: 0px 0px;
+        border-radius: 20px;
+        backdrop-filter: blur(30px);
+    }
+    
+}
+
+@media (max-width: 500px) {
+    
+    .homepage{
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .homepage_left{
+        width: 340px;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 0px;
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .saanzz_color{
+        font-size: 45px;
+    }
+    .digital_color{
+        font-size: 45px;
+    }
+    .landing_page_icons{
+        width: 340px;
+        margin-left: 0px;
+        text-shadow: 2px 9px 7px rgba(0, 0, 0, 0.25);
+    }
+    .our_pride{
+        /* height: 650px; */
+        justify-content: space-evenly;
+    }
+    .ou_pride_left>img{
+        width: 280px;
+        border-radius: 0px 30px 30px 0px;
+    }
+    .ourpride_content{
+        font-size: 17px;
+        width: 340px;
+        height: 470px;
+        padding: 20px 10px 25px 10px;
+        margin-top: 0px;
+        border-radius: 0px 30px 30px 0px;
+    }
+    .why_saanzz_digital_left{
+        font-size: 14px;
+    }
+    .why_saanzz_digital_right>img{
+        width: 120px;
+    }
+    .do_left>img{
+        width: 280px;
+    }
+    .do_right{
+        border-radius: 0px 20px 20px 0px;
+        width: 90%;
+        height: 460px;
+        padding: 35px 30px 30px 30px;
+    }
+    .homepage_contact_right>input{
+        width: 230px;
+    }
+}
+
+@media (max-width: 350px) {
+    .homepage_left{
+        width: 280px;
+        margin-left: 0px;
+    }
+    .landing_page_icons{
+        width: 280px;
+    }
+    .ourpride_content{
+        font-size: 14px;
+        width: 300px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .do_right{
+        height: 500px;
+    }
+}
